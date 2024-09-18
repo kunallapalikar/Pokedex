@@ -22,6 +22,11 @@ function App() {
 
   const handlePokemonList = () => {
 
+    if (!name || !breed || !description) {
+      alert("Please fill in all the fields");
+      return;
+    }
+
     if (editingPokemon) {
 
       const updateList = pokemonList.map(pokemonList => pokemonList.id === editingPokemon.id
