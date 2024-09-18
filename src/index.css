@@ -1,0 +1,79 @@
+:root {
+  background-color:rgb(50, 50, 94);
+  color: white;
+}
+
+
+.title{
+  font-family:  'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading{
+  margin-left: 9px;
+  color: white;
+}
+
+.logo{
+  margin: auto 0;
+   height: 50px;
+   max-width: 50px;
+}
+
+.input-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.input{
+ margin: 5px;
+  padding: 8px;
+  border: 2px solid rgb(231, 114, 72);
+  border-radius: 7px;
+}
+
+.input-btn{
+  font-family:  'Raleway',sans-serif;
+  font-weight: 600;
+  margin-left: 2rem;
+  padding: 2px;
+  width: 8rem;
+  background-color: #ffc93c;
+  border-radius: 10px;
+}
+
+.container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  font-family:  'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #ff6217;
+  box-shadow:  black 0px 10px 20px,  #ff6217 0px 6px 6px;
+}
+
+
+.card-btn{
+  margin-bottom: 5px;
+  padding: 5px ;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  background-color: #ffc93c;
+  font-family:  'Raleway',sans-serif;
+  font-weight: 600;
+}
+
